@@ -1,20 +1,40 @@
 html, body {
-  min-height: 100vh;
-  margin: 0;
-  float: left;
+  box-sizing: content-box;
+  background-image: url("/images/emilia-home.jpg");
+  background-size: 75%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+div{
+overflow: hidden;
+}
+
+#texto{
+  margin-left: 20px;
   font-family: Open Sans, sans-serif;
+  display: inline-block;
 }
 
 h1{
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgb(255, 255, 255, 0.2);
+  font-size: 60.5px;
+  margin: 0;
 }
 
 h2{
   font-family: Work Sans, sans-serif;
+  margin-left: 20px;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 30px;
 }
 
-#fotoHome {
+img{
   float: right;
+  width: 62.5%;
+  height: 62.5%;
 }
