@@ -1,4 +1,4 @@
-html, body {
+body {
     box-sizing: content-box;
     background-image: url("/images/emilia-about.jpg");
     background-size: 75%;
@@ -9,7 +9,7 @@ html, body {
 .main-header{
     margin-top: 40px;
     display: block;
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255, 0.4);
     overflow: hidden;
     background-image: none;
 }
@@ -33,4 +33,26 @@ ul{
 #contactos {
     border-right:solid 1px black;
     padding-right: 10px;
+}
+
+h1{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    letter-spacing: 5px;
+  }
+
+.frases{
+    font-family: Open Sans, sans-serif;
+    color: rgba(3, 156, 144, 0.829);
+    font-size: 22px;
+    margin-left:35px;
+}
+
+.autor{
+    font-family: Open Sans, sans-serif;
+    color: rgba(3, 156, 144, 0.829);
+    margin-left:35px;
+    font-size: 15px;
 }
